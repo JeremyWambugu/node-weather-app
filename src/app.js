@@ -23,13 +23,13 @@ app.use(express.static(publicDirPath));
 app.get("", (req, res) => {
 	res.render("index", {
 		title: "Weather App",
-		name: "Jasmine Wambugu"
+		name: "Jeremy Wambugu"
 	});
 });
 app.get("/about", (req, res) => {
 	res.render("about", {
 		title: "About Me",
-		name: "Jasmine Wambugu"
+		name: "Jeremy Wambugu"
 	});
 });
 app.get("/help", (req, res) => {
